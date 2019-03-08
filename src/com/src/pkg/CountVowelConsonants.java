@@ -12,7 +12,7 @@ public class CountVowelConsonants {
 		System.out.println("Enter the string:   ");
 		String str=inp.nextLine();
 		int vCount=0,cCount=0;
-		
+		str=str.toLowerCase();
 		int len=str.length();
 		
 		for(int i=0;i<len;i++)

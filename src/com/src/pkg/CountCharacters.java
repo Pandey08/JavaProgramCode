@@ -6,21 +6,30 @@ public class CountCharacters {
 		// TODO Auto-generated method stub
 		
 		
-		String s = "CapgeminieccCCc";
+		String s = "Infosyss";
 		int len=s.length();
 		int count=0;
+		char c='s';
 		for(int i=0;i<len;i++)
 		{
-			for(int j=i+1;j<len;j++)
-			{
-				if(s.charAt(i)==s.charAt(j))
+			if(s.charAt(i)==c)
 				{
 					count++;
 				}
-					
-			}
-		}
+	}
        System.out.println(count);
+       
+       String string="The best of both worlds";
+       int count1=0;
+       int len1=string.length();
+       for(int i=0;i<len1;i++)
+       {
+    	     if(string.charAt(i)!=' ')
+    	     {
+    	    	   count1++;
+    	     }
+       }
+       System.out.println(count1);
 	}
 
 }
