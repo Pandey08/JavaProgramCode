@@ -32,7 +32,7 @@ public class UniqueCharacter {
 			}
 
 			if (!isDuplicate)
-				System.out.print(currentChar);
+				System.out.print(currentChar + " ");
 		}
 
 		

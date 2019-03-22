@@ -6,7 +6,7 @@ public class CountCharacters {
 		// TODO Auto-generated method stub
 		
 		
-		String s = "Infosyss";
+		String s = "Infosyssss";
 		int len=s.length();
 		int count=0;
 		char c='s';

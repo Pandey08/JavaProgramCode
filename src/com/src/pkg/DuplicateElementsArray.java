@@ -19,12 +19,13 @@ public class DuplicateElementsArray {
         numbers[i]=inp.nextInt();
 		}
 		int len=numbers.length;
+		System.out.print("Duplicate Elements : "); 
 		for(int j=0;j<len;j++)
 		{
 			for(int k=j+1;k<len;k++)
 			{
 				if(numbers[j]==numbers[k])
-					System.out.println(numbers[j]);
+					System.out.print( " " + numbers[j]);
 			}
 		}
 	}
