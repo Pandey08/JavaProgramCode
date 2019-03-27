@@ -7,9 +7,10 @@ public class ReverseSentence {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		//Scanner inp=new Scanner(System.in);
-		//String str=inp.nextLine();
-		String str="Java Selenium TestNG";
+		Scanner inp=new Scanner(System.in);
+		System.out.println("Enter the string :");
+		String str=inp.nextLine();
+		//String str="Java Selenium TestNG";
 		String strArray[]=str.split(" ");
 		StringBuffer sb=new StringBuffer();
 		
@@ -20,7 +21,7 @@ public class ReverseSentence {
 		
 		//String word = null;
 		sb.append(new StringBuilder(word).reverse());
-		sb.append("\t");
+		sb.append("  ");
 		}
 		System.out.println(sb + " ");
 		

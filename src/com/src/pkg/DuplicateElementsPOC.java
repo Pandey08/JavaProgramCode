@@ -23,7 +23,8 @@ public class DuplicateElementsPOC {
 					continue;
 				}
 				
-				if(currentElement==arr[j] && !duplicateList.contains(currentElement))
+				//if(currentElement==arr[j] && !duplicateList.contains(currentElement))
+				if(currentElement!=arr[j] && !duplicateList.contains(currentElement))
 				{
 					duplicateList.add(currentElement);
 				}
